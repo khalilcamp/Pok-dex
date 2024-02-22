@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="icon" href="./favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script defer src="./js/script.js"></script>
+
+  <title>Pokédex</title>
+</head>
+<body>
+  <main>
+    <img src="#" alt="pokemon" class="pokemon__image">
+
+    <h1 class="pokemon__data">
+      <span class="pokemon__numero"></span> -
+      <span class="pokemon__name"></span>
+    </h1>
+
+    <form class="form">
+      <input type="search" class="input__search" placeholder="Name or number" required>
+    </form>
+    <div class="buttons">
+      <audio id="audio" src="./Menu.mp3"></audio>
+      <audio id="audio" src="#" class="pokemon__cries"></audio>
+      <button class="button btn-prev">Prev &lt;</button>
+      <button class="button btn-next">Next &gt;</button>
+    </div>
+    <img src="./images/pokedex2.png" alt="pokedex" class="pokedex">
+    <div class="pokemon__desc">
+    </div>
+  </main>
+  <footer class="rodape">
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/khalil-camargo-packer-035ba91a5/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="https://github.com/khalilcamp"><ion-icon name="logo-github"></ion-icon></a>
+        <h3>Desenvolvido por Khalil Camargo Packer</h3>
+    </div>
+</footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
